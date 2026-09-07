@@ -305,62 +305,61 @@ h2 {
   line-height: 1.5;
 }
 
-/* ── Process / Before-After ─────────────────────────── */
-.process {
+/* ── Wide inline process tile ─────────────────────── */
+.obj-card-wide {
+  grid-column: 1 / -1;
+  padding: 1.5rem;
+}
+
+.obj-process {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.obj-process-step {
+  flex: 1;
+  min-width: 140px;
+  max-width: 200px;
   text-align: center;
 }
 
-.process-steps {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
+.obj-process-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.obj-process-step h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #071e54;
+  margin-bottom: 0.25rem;
+}
+
+.obj-process-step p {
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.obj-process-arrow {
+  font-size: 1.5rem;
+  color: #ccc;
+  flex-shrink: 0;
+  padding-bottom: 1rem;
+}
+
+.obj-process-cta {
+  text-align: center;
   margin-top: 1rem;
 }
 
-.step {
-  flex: 1;
-  min-width: 220px;
-  max-width: 280px;
-  padding: 2rem 1rem;
-}
-
-.step-visual {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.step h3 {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: #071e54;
-  margin-bottom: 0.5rem;
-}
-
-.step p { font-size: 0.9rem; color: #555; }
-
-.step-arrow {
-  font-size: 2rem;
-  color: #ccc;
-  display: flex;
-  align-items: flex-start;
-  padding-top: 2.5rem;
-  font-weight: 300;
-}
-
-.progress-nudge {
-  margin-top: 2.5rem;
-  padding: 1.5rem;
-  background: linear-gradient(135deg, #e8f4f8, #d4eaf7);
-  border-radius: 10px;
-}
-
-.progress-nudge p {
-  font-size: 1.05rem;
-  color: #071e54;
-  font-weight: 500;
-  margin-bottom: 0.75rem;
+.btn-small {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.85rem;
 }
 
 /* ── Workshops / Main Offer ─────────────────────────── */
@@ -839,9 +838,6 @@ h2 {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-
-  .process-steps { flex-direction: column; align-items: center; }
-  .step-arrow { transform: rotate(90deg); padding-top: 0; }
 
   .press-logos { gap: 0.8rem; }
   .press-badge { padding: 0.5rem 1rem; font-size: 0.85rem; }
