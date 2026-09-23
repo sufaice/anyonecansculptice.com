@@ -1,7 +1,7 @@
 title: "Anyone Can Sculpt Ice"
 description: "Hands-on ice sculpting workshops in Ottawa — guided by professional instructors trained in world champion techniques."
-url: "https://sufaice.github.io"
-baseurl: "/anyonecansculptice.com"
+url: "https://www.anyonecansculptice.com"
+baseurl: ""
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
