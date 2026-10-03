@@ -35,4 +35,4 @@ These terms may be updated from time to time; the "last updated" date above refl
 
 ## Contact
 
-**to.sufaice@gmail.com**
+**ottawa@anyonecansculptice.com**

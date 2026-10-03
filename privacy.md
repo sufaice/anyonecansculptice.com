@@ -45,4 +45,4 @@ Access can be revoked at any time at [myaccount.google.com/permissions](https://
 
 ## Contact
 
-Questions about this policy: **to.sufaice@gmail.com**
+Questions about this policy: **ottawa@anyonecansculptice.com**
